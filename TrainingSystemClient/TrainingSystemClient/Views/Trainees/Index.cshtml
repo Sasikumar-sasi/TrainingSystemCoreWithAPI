@@ -1,0 +1,63 @@
+﻿@model IEnumerable<TrainingSystemClient.Models.Trainee>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TraineeID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TraineeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MappedTo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailId)
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TraineeID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TraineeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MappedTo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailId)
+            </td>
+           
+            <td>
+                    @if(item.MappedTo.Equals("Not Mapped"))
+                    {
+                         @Html.ActionLink("Map", "Edit", new { id=item.TraineeID }) 
+                    } |
+               
+                @Html.ActionLink("Details", "Details", new { id=item.TraineeID }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.TraineeID })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

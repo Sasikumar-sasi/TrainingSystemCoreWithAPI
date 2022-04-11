@@ -1,0 +1,13 @@
+﻿@inject IHttpContextAccessor Accessor;
+@{
+    ViewData["Title"] = "DashBoard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>DashBoard</h1>
+
+<p> Welcome Back @Accessor.HttpContext.Session.GetString("Email").ToString()</p>
+
+ <a class="btn btn-primary" asp-area="" asp-controller="Trainees" asp-action="Index">View All Trainees</a>
+
+  <a class="btn btn-primary" asp-area="" asp-controller="Trainees" asp-action="ViewMapped">View Mapped Trainees</a>

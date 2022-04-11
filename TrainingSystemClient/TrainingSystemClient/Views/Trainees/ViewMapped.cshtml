@@ -1,0 +1,30 @@
+﻿@model TrainingSystemClient.Models.Trainee;
+@{
+    ViewData["Title"] = "ViewMapped";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Search based on Domain</h2>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Filtered" asp-controller="Trainees">
+            <div class="form-group">
+                <label asp-for="MappedTo" class="control-label">Mapped For</label>
+                <select  asp-for="MappedTo" class="form-control">
+                    <option value="Not Mapped">Not Mapped</option>
+                    <option value="Java">Java</option>
+                    <option value=".NET Framework">.NET Framework</option>
+                    <option value="Python">Python</option>
+                    <option value="Testing">Testing</option>
+                </select>
+                <span asp-validation-for="MappedTo" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger">
+            </div>
+        </form>
+    </div>
+</div>

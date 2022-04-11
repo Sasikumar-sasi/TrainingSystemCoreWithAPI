@@ -1,0 +1,58 @@
+﻿@model TrainingSystemClient.Models.Trainee
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Trainee</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TraineeID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TraineeID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TraineeName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TraineeName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MappedTo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MappedTo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EmailId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EmailId)
+        </dd>
+        <dt class = "col-sm-2" style="display:none">
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+        <dd class = "col-sm-10" style="display:none">
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+    </dl>
+</div>
+<div>
+     @if(Model.MappedTo.Equals("Not Mapped"))
+                    {
+                         @Html.ActionLink("Map", "Edit", new { id=Model.TraineeID }) 
+                    } |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TrainingSystemClient
+build_property.RootNamespace = TrainingSystemClient
+build_property.ProjectDir = D:\Training\DOT NET\Core\TrainingSystemClient\TrainingSystemClient\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Training\DOT NET\Core\TrainingSystemClient\TrainingSystemClient
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Home/DashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoQm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Trainees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Trainees/DashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZXNcRGFzaEJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Trainees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Trainees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Trainees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Trainees/Filtered.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZXNcRmlsdGVyZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Trainees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Trainees/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Trainees/ViewMapped.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZXNcVmlld01hcHBlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Shared/_Common.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db21tb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-c45ujl29wt
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5fyn9jftvj
+
+[D:/Training/DOT NET/Core/TrainingSystemClient/TrainingSystemClient/Views/Shared/_LayoutTrainee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRUcmFpbmVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-7l3wu6m8y2
